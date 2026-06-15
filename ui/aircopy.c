@@ -35,7 +35,7 @@ void UI_DisplayAircopy(void)
 	UI_DisplayClear();
 
 	if (gAircopyState == AIRCOPY_READY) {
-		pPrintStr = "AIR COPY(RDY)";
+		pPrintStr = "AIR COPY test (RDY)";
 	} else if (gAircopyState == AIRCOPY_TRANSFER) {
 		pPrintStr = "AIR COPY";
 	} else {
